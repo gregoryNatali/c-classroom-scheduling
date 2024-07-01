@@ -1,46 +1,23 @@
 #include <stdio.h>
 #include "lib/printMenu.h"
+#include "lib/handleActions.h"
 
 int main () {
+  FILE *file;
   int action = 1;
+  
+  file = fopen("./data/salas.txt", "r");
+  
   while (action != 0)
   {
   printMenu();
-  printf("Ação: ");
+  printf("Acao: ");
   scanf("%d", &action);
 
-  switch (action)
-  {
-  case 1:
-    printf("Listar Salas");
-    break;
-  
-  case 2:
-    printf("Listar Reservas");
-    break;
-
-  case 3:
-    printf("Reservas de uma sala");
-    break;
-
-  case 4:
-    printf("Agendar Sala");
-    break;
-
-  case 5:
-    printf("Cancelar Reserva");
-    break;
-  
-  case 0:
-  break;
-
-  default:
-  printf("\nAção Inválida! Insira novamente: ");
-  scanf("%d", &action);
-    break;
+  handleActions(action, file);
   }
+
   printf("Programa Encerrado!");
-  }
   
   return 0;
 }
