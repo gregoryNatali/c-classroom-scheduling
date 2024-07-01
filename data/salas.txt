@@ -1,8 +1,8 @@
-1, Sala A, Sala de Aula com Projetor, 30
-2, Sala B, Laboratório de Informática, 20
-3, Sala C, Sala de Reuniões, 15
-4, Sala D, Auditório, 100
-5, Sala E, Sala de Estudos, 10
-6, Sala F, Sala de Estudos, 10
-7, Sala G, Sala de Estudos, 10
-8, Sala H, Sala de Estudos, 10
+1 Sala_A Sala_de_Aula_com_Projetor 30
+2 Sala_B Laboratório_de_Informática 20
+3 Sala_C Sala_de_Reuniões 15
+4 Sala_D Auditório 100
+5 Sala_E Sala_de_Estudos 10
+6 Sala_F Sala_de_Estudos 10
+7 Sala_G Sala_de_Estudos 10
+8 Sala_H Sala_de_Estudos 10
